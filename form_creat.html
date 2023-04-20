@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           label {
+                  display: block;
+                  margin-bottom: 20px;
+            }
+           .date{
+                 margin-bottom: 5px;
+            }
+            .profession{
+                   margin-bottom: 20px;
+            }    
+    </style>
+
+</head>
+<body>
+    <h1><center><header>Fill in Your Identity</header></center></h1>
+    <form>
+            <label for="name">Your name
+                 <input id="name" typ="text"placeholder="Your Name">
+            </label>
+         
+            <label for="email">Your Email
+                 <input id="email" typ="password"placeholder="email">
+            </label>
+            
+            <label for="">Mobile Number
+                 <input type="mobile number">
+            </label>
+       
+        <fieldset class="profession">
+            <legend>Select Your Profession</legend>
+            <label for="">
+                    <input type="radio"name="profession">Student 
+            </label>
+            
+            <label for="">
+                    <input type="radio"name="profession">Teacher 
+            </label>
+            
+            <label for="">
+                <input type="radio"name="profession">Business  
+            </label>
+       
+        </fieldset>
+        
+        <fieldset>
+            <legend>Favorite Color</legend>
+            <label for="">
+                <input type="checkbox"name="color" id="red">Red
+                <input type="checkbox"name="color" id="green">Green
+                <input type="checkbox"name="color" id="orange">Orange
+
+            </label>
+        
+        </fieldset>
+
+        <div class="date">
+            <h4>Select Your Date of Birth</h4>
+            <label for="">
+                 <input type="date">  
+            </label>
+         
+        </div>
+            
+            <legend>Introduce Your Self</legend>
+       
+            <label for="">
+                <textarea name="" id="" cols="40" rows="10"></textarea>
+            </label> 
+            <label for="">
+               <input type="reset">
+               <input type="submit">
+            </label>
+    </form>
+
+</body>
+</html>
